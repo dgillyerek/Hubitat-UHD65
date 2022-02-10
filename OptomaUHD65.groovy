@@ -39,8 +39,8 @@ metadata
     preferences 
 	{   
 		input name: "OptomaIP", type: "text", title: "Optoma IP", required: true, displayDuringSetup: true
-		input name: "OptPort", type: "number", title: "Port", defaultValue: 32, required: true, displayDuringSetup: true
-        input name: "ProjectorID", type: "text", title: "ProjectorID", defaultValue: "01", required: true, displayDuringSetup: true
+		input name: "OptPort", type: "number", title: "Port", defaultValue: 23, required: true, displayDuringSetup: true
+        input name: "ProjectorID", type: "text", title: "ProjectorID", defaultValue: "00", required: true, displayDuringSetup: true
  		input name: "textLogging",  type: "bool", title: "Enable description text logging ", required: true, defaultValue: true
         input name: "debugOutput", type: "bool", title: "Enable debug logging", defaultValue: true
     }
